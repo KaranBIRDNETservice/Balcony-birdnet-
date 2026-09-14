@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karan Birdnet Service | Bird & Pigeon Safety Net Installation in Gota, Ahmedabad</title>
+<meta name="description" content="Karan Birdnet Service - Bird net, pigeon net & balcony safety net installation in Gota, Ahmedabad, Gujarat. Window net, children safety net, terrace net. Call/WhatsApp 6232957739.">
+<meta name="keywords" content="bird net Ahmedabad, pigeon net Ahmedabad, bird net Gota, pigeon net Gota, balcony safety net Ahmedabad, window safety net Gota, invisible bird net Gujarat, children safety net Ahmedabad, terrace bird net, anti pigeon net installation, Karan Birdnet Service">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#152018;
+    --panel:#1e2c24;
+    --paper:#f1ecdc;
+    --paper-dim:#e8e2cd;
+    --accent:#c99a3b;
+    --accent-dim:#a97f2c;
+    --sage:#6f8c74;
+    --text-light:#f6f3e9;
+    --text-dark:#182219;
+    --line: rgba(246,243,233,0.14);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Work Sans', sans-serif;
+    background:var(--paper);
+    color:var(--text-dark);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    line-height:1.12;
+    letter-spacing:-0.01em;
+  }
+  a{color:inherit; text-decoration:none;}
+  img,svg{display:block; max-width:100%;}
+  .wrap{max-width:1080px; margin:0 auto; padding:0 24px;}
+
+  /* ---------- Net mesh pattern (used as texture, not decoration-only: literally the product) ---------- */
+  .mesh{
+    position:absolute; inset:0;
+    background-image:
+      repeating-linear-gradient(60deg, rgba(246,243,233,0.09) 0 1px, transparent 1px 26px),
+      repeating-linear-gradient(-60deg, rgba(246,243,233,0.09) 0 1px, transparent 1px 26px);
+    pointer-events:none;
+  }
+
+  /* ---------- Top bar ---------- */
+  .topbar{
+    background:var(--ink);
+    color:var(--text-light);
+    font-size:14px;
+  }
+  .topbar .wrap{
+    display:flex; justify-content:space-between; align-items:center;
+    padding:10px 24px; gap:16px; flex-wrap:wrap;
+  }
+  .topbar a{border-bottom:1px solid transparent;}
+  .topbar a:hover{border-color:var(--accent);}
+  .topbar .call{color:var(--accent); font-weight:600;}
+
+  /* ---------- Header ---------- */
+  header.hero{
+    position:relative;
+    background:var(--ink);
+    color:var(--text-light);
+    overflow:hidden;
+    padding:52px 0 76px;
+  }
+  nav.wrap{
+    display:flex; justify-content:space-between; align-items:center;
+    position:relative; z-index:2;
+    margin-bottom:56px;
+  }
+  .brand{
+    font-family:'Fraunces', serif;
+    font-size:22px;
+    font-weight:700;
+    color:var(--text-light);
+  }
+  .brand span{color:var(--accent);}
+  .nav-links{display:flex; gap:28px; font-size:15px;}
+  .nav-links a{opacity:0.85;}
+  .nav-links a:hover{opacity:1;}
+
+  .hero-grid{
+    position:relative; z-index:2;
+    display:grid;
+    grid-template-columns:1.15fr 0.85fr;
+    gap:48px;
+    align-items:center;
+  }
+  .hero h1{
+    font-size:44px;
+    color:var(--text-light);
+    max-width:620px;
+  }
+  .hero h1 em{
+    font-style:normal;
+    color:var(--accent);
+  }
+  .hero p.lead{
+    margin-top:20px;
+    font-size:18px;
+    max-width:480px;
+    color:var(--paper-dim);
+  }
+  .cta-row{
+    margin-top:32px;
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+  }
+  .btn{
+    display:inline-flex; align-items:center; gap:10px;
+    padding:14px 24px;
+    border-radius:3px;
+    font-weight:600;
+    font-size:15px;
+    border:1px solid transparent;
+    transition:transform .15s ease;
+  }
+  .btn:hover{transform:translateY(-2px);}
+  .btn-primary{background:var(--accent); color:var(--ink);}
+  .btn-secondary{border-color:var(--line); color:var(--text-light);}
+  .btn-whatsapp{background:#25D366; color:#fff;}
+  .btn-whatsapp:hover{background:#1ebc59;}
+  .btn svg{width:18px; height:18px;}
+
+  .hero-panel{
+    position:relative; z-index:2;
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:28px;
+  }
+  .hero-panel h3{color:var(--text-light); font-size:20px; margin-bottom:16px;}
+  .hero-panel ul{list-style:none; display:flex; flex-direction:column; gap:12px;}
+  .hero-panel li{
+    display:flex; align-items:flex-start; gap:10px;
+    color:var(--paper-dim); font-size:15px;
+  }
+  .hero-panel li svg{width:16px; height:16px; margin-top:3px; flex-shrink:0; color:var(--accent);}
+
+  /* ---------- Sections ---------- */
+  section{padding:72px 0;}
+  .section-head{max-width:600px; margin-bottom:44px;}
+  .section-head h2{font-size:32px; color:var(--text-dark);}
+  .section-head p{margin-top:12px; font-size:16px; color:#4b5347;}
+
+  /* Services */
+  .services-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:1px;
+    background:var(--line-dark, #d9d2ba);
+    border:1px solid #d9d2ba;
+  }
+  .service-card{
+    background:var(--paper);
+    padding:30px 26px;
+    display:flex; flex-direction:column; gap:12px;
+  }
+  .service-card .icon{
+    width:38px; height:38px;
+    color:var(--accent-dim);
+  }
+  .service-card h3{font-size:18px; color:var(--text-dark);}
+  .service-card p{font-size:14.5px; color:#565f4f;}
+
+  /* Why us */
+  .why{background:var(--panel); color:var(--text-light);}
+  .why .section-head h2{color:var(--text-light);}
+  .why .section-head p{color:var(--paper-dim);}
+  .why-grid{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:28px 40px;
+  }
+  .why-item{display:flex; gap:16px;}
+  .why-item .num{
+    font-family:'Fraunces', serif;
+    font-size:26px;
+    color:var(--accent);
+    flex-shrink:0;
+    width:40px;
+  }
+  .why-item h3{font-size:17px; color:var(--text-light); margin-bottom:6px;}
+  .why-item p{font-size:14.5px; color:var(--paper-dim);}
+
+  /* Process */
+  .process-row{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:0;
+    border-top:1px solid #d9d2ba;
+  }
+  .process-step{
+    padding:28px 22px 0;
+    border-right:1px solid #d9d2ba;
+    position:relative;
+  }
+  .process-step:last-child{border-right:none;}
+  .process-step .step-no{
+    font-family:'Fraunces', serif;
+    font-size:15px;
+    color:var(--accent-dim);
+    margin-bottom:10px;
+  }
+  .process-step h3{font-size:16px; margin-bottom:8px;}
+  .process-step p{font-size:14px; color:#565f4f;}
+
+  /* Gallery */
+  .gallery{background:var(--paper);}
+  .gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:16px;
+  }
+  .gallery-item{
+    position:relative;
+    border-radius:4px;
+    overflow:hidden;
+    border:1px solid #d9d2ba;
+    aspect-ratio:3/4;
+  }
+  .gallery-item img{
+    width:100%; height:100%;
+    object-fit:cover;
+    display:block;
+  }
+  .gallery-item .cap{
+    position:absolute; left:0; right:0; bottom:0;
+    background:linear-gradient(to top, rgba(20,32,24,0.82), transparent);
+    color:var(--text-light);
+    font-size:13px;
+    padding:24px 14px 10px;
+  }
+  .gallery-item.placeholder{
+    display:flex; align-items:center; justify-content:center;
+    background:var(--paper-dim);
+    color:#8a8367;
+    font-size:14px;
+    text-align:center;
+    padding:20px;
+  }
+
+  /* Area */
+  .area{
+    background:var(--paper-dim);
+  }
+  .area-flex{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:start;
+  }
+  .area-tags{display:flex; flex-wrap:wrap; gap:10px; margin-top:18px;}
+  .area-tag{
+    border:1px solid #c9c0a2;
+    padding:7px 14px;
+    border-radius:999px;
+    font-size:13.5px;
+    color:#3a4132;
+  }
+  .area-map-note{
+    border-left:3px solid var(--accent);
+    padding:16px 20px;
+    background:var(--paper);
+    font-size:14.5px;
+    color:#4b5347;
+  }
+
+  /* Contact */
+  .contact{
+    background:var(--ink);
+    color:var(--text-light);
+    position:relative;
+    overflow:hidden;
+  }
+  .contact .wrap{position:relative; z-index:2;}
+  .contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:48px;
+  }
+  .contact h2{color:var(--text-light); font-size:30px; margin-bottom:16px;}
+  .contact p{color:var(--paper-dim); font-size:15.5px; margin-bottom:28px; max-width:420px;}
+  .contact-detail{
+    display:flex; align-items:center; gap:14px;
+    padding:16px 0;
+    border-top:1px solid var(--line);
+  }
+  .contact-detail:first-of-type{border-top:none;}
+  .contact-detail svg{width:20px; height:20px; color:var(--accent); flex-shrink:0;}
+  .contact-detail .label{font-size:12.5px; color:var(--paper-dim); text-transform:uppercase; letter-spacing:0.04em;}
+  .contact-detail .value{font-size:16px; font-weight:600;}
+  .contact-cta{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:32px;
+  }
+  .contact-cta h3{color:var(--text-light); font-size:20px; margin-bottom:8px;}
+  .contact-cta p{font-size:14.5px; margin-bottom:22px;}
+  .contact-cta .btn{width:100%; justify-content:center;}
+  .contact-cta .btn + .btn{margin-top:12px;}
+
+  /* Footer */
+  footer{
+    background:var(--panel);
+    color:var(--paper-dim);
+    padding:32px 0;
+    font-size:13px;
+  }
+  footer .wrap{
+    display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;
+  }
+  footer .keywords{
+    color:rgba(246,243,233,0.45);
+    max-width:640px;
+    line-height:1.6;
+  }
+
+  /* Floating WhatsApp */
+  .float-wa{
+    position:fixed;
+    bottom:20px; right:20px;
+    background:#25D366;
+    color:#fff;
+    width:56px; height:56px;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 6px 18px rgba(0,0,0,0.25);
+    z-index:50;
+  }
+  .float-wa svg{width:28px; height:28px;}
+
+  @media (max-width: 860px){
+    .hero-grid{grid-template-columns:1fr;}
+    .hero h1{font-size:34px;}
+    .services-grid{grid-template-columns:1fr 1fr;}
+    .why-grid{grid-template-columns:1fr;}
+    .process-row{grid-template-columns:1fr 1fr;}
+    .process-step{border-bottom:1px solid #d9d2ba; padding-bottom:20px;}
+    .area-flex, .contact-grid{grid-template-columns:1fr;}
+    .nav-links{display:none;}
+    .gallery-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width: 520px){
+    .services-grid{grid-template-columns:1fr;}
+    .process-row{grid-template-columns:1fr;}
+    .gallery-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>Gota, Ahmedabad, Gujarat — Bird &amp; Pigeon Net Specialists</span>
+    <a class="call" href="tel:+916232957739">📞 6232957739</a>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="mesh"></div>
+  <nav class="wrap">
+    <div class="brand">Karan <span>Birdnet</span> Service</div>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#why">Why Us</a>
+      <a href="#area">Service Area</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Keep pigeons out of your balcony — without <em>caging</em> it in.</h1>
+      <p class="lead">Karan Birdnet Service installs strong, near-invisible bird nets for balconies, windows and terraces across Gota and Ahmedabad. One visit, clean fitting, no more bird mess.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="tel:+916232957739">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call 6232957739
+        </a>
+        <a class="btn btn-whatsapp" href="https://wa.me/916232957739?text=Hi%2C%20I%20need%20a%20bird%20net%20quote" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.5 0-10 4.5-10 10 0 1.77.46 3.44 1.27 4.9L2 22l5.25-1.38a9.98 9.98 0 0 0 4.79 1.22h.01c5.5 0 10-4.5 10-10s-4.5-10-10.01-10zm0 18.17h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.11.82.83-3.03-.2-.31a8.17 8.17 0 0 1-1.26-4.36c0-4.52 3.68-8.2 8.21-8.2 2.19 0 4.25.86 5.8 2.4a8.15 8.15 0 0 1 2.4 5.81c0 4.52-3.68 8.2-8.18 8.2z"/></svg>
+          WhatsApp Us
+        </a>
+      </div>
+    </div>
+    <div class="hero-panel">
+      <h3>Same net. Fewer worries.</h3>
+      <ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> UV-stable nylon nets, built for Ahmedabad's heat</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Free on-site measurement before any quote</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> No drilling damage — clean, secure fixing</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Local team based right in Gota</li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<section id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Our Bird Net Services</h2>
+      <p>Every space is different — balconies, windows, terraces and ACs all need a different net and a different fixing method. We install all of it.</p>
+    </div>
+  </div>
+  <div class="wrap" style="padding:0 24px;">
+    <div class="services-grid">
+      <div class="service-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg>
+        <h3>Balcony Safety Net</h3>
+        <p>Pigeon-proof net across open balconies that keeps birds out while letting in light and air.</p>
+      </div>
+      <div class="service-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="2" width="16" height="20" rx="1"/><path d="M4 8h16M4 14h16M12 2v20"/></svg>
+        <h3>Window &amp; Grill Net</h3>
+        <p>Fitted over windows, grills and ventilators to stop birds nesting or entering the house.</p>
+      </div>
+      <div class="service-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg>
+        <h3>Children Safety Net</h3>
+        <p>Turns an open balcony into a safe area for kids and pets, alongside bird protection.</p>
+      </div>
+      <div class="service-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12c3-6 17-6 20 0-3 6-17 6-20 0z"/><circle cx="12" cy="12" r="2"/></svg>
+        <h3>Invisible Nylon Net</h3>
+        <p>Fine, low-visibility mesh that keeps the view from your balcony almost unchanged.</p>
+      </div>
+      <div class="service-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M6 21V9l6-6 6 6v12M10 21v-6h4v6"/></svg>
+        <h3>Terrace &amp; Open Area Net</h3>
+        <p>Full coverage for terraces, gardens and open plots — including farmhouse enclosures.</p>
+      </div>
+      <div class="service-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="7" width="18" height="10" rx="1"/><path d="M7 7V5h10v2M7 17v2h10v-2"/></svg>
+        <h3>AC &amp; Duct Net</h3>
+        <p>Keeps birds and nesting material away from outdoor AC units and duct openings.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="why" id="why">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Why people call Karan Birdnet Service</h2>
+      <p>A local installer you can actually reach — not a call centre routing you to someone three cities away.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="num">01</div>
+        <div><h3>Based in Gota</h3><p>We're local to Gota and cover Ahmedabad — quick response, no long waits for a site visit.</p></div>
+      </div>
+      <div class="why-item">
+        <div class="num">02</div>
+        <div><h3>Straightforward pricing</h3><p>We measure first, quote second. No inflated estimates before we've even seen the space.</p></div>
+      </div>
+      <div class="why-item">
+        <div class="num">03</div>
+        <div><h3>Nets that last</h3><p>UV-resistant, knot-free nylon nets chosen to hold up through Ahmedabad summers and monsoons.</p></div>
+      </div>
+      <div class="why-item">
+        <div class="num">04</div>
+        <div><h3>Call or WhatsApp — your choice</h3><p>Same number for both. Send a photo of your balcony on WhatsApp and get a rough idea instantly.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="process" style="padding-bottom:0;">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>How it works</h2>
+      <p>Four steps, start to finish.</p>
+    </div>
+  </div>
+  <div class="wrap" style="padding:0 24px;">
+    <div class="process-row">
+      <div class="process-step">
+        <div class="step-no">Step 1</div>
+        <h3>Reach out</h3>
+        <p>Call or WhatsApp 6232957739 with your requirement and area.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-no">Step 2</div>
+        <h3>Free measurement</h3>
+        <p>We visit, measure the space, and explain net options and pricing.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-no">Step 3</div>
+        <h3>Installation</h3>
+        <p>Our team fits the net securely, without damaging walls or paint.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-no">Step 4</div>
+        <h3>Bird-free space</h3>
+        <p>Enjoy a clean, safe balcony or terrace — pigeons stay outside.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Recent work</h2>
+      <p>A look at nets we've actually installed — not stock photos.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/gallery-1.webp" alt="Balcony bird net installed at a residential building">
+        <div class="cap">Balcony net, corridor &amp; railing coverage</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery-2.webp" alt="Bird net view from an installed balcony overlooking the road">
+        <div class="cap">Full balcony net, high-rise installation</div>
+      </div>
+      <div class="gallery-item placeholder">More photos coming soon — every install gets added here.</div>
+    </div>
+  </div>
+</section>
+
+<section class="area" id="area">
+  <div class="wrap">
+    <div class="area-flex">
+      <div>
+        <div class="section-head" style="margin-bottom:0;">
+          <h2>Where we work</h2>
+          <p>Based in Gota, serving homes and offices across Ahmedabad, Gujarat.</p>
+        </div>
+        <div class="area-tags">
+          <span class="area-tag">Gota</span>
+          <span class="area-tag">Chandkheda</span>
+          <span class="area-tag">Shilaj</span>
+          <span class="area-tag">Sola</span>
+          <span class="area-tag">New CG Road</span>
+          <span class="area-tag">Vaishnodevi</span>
+          <span class="area-tag">Ahmedabad city</span>
+        </div>
+      </div>
+      <div class="area-map-note">
+        Not sure if your area is covered? Send your location on WhatsApp — if you're anywhere in Ahmedabad, chances are we can reach you.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="mesh"></div>
+  <div class="wrap">
+    <div class="contact-grid">
+      <div>
+        <h2>Get a free quote</h2>
+        <p>Tell us the size of your balcony or window and we'll get back with a fair estimate — usually the same day.</p>
+
+        <div class="contact-detail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <div><div class="label">Call or WhatsApp</div><div class="value">6232957739</div></div>
+        </div>
+        <div class="contact-detail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div><div class="label">Location</div><div class="value">Gota, Ahmedabad, Gujarat</div></div>
+        </div>
+        <div class="contact-detail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <div><div class="label">Hours</div><div class="value">Open all week — call anytime</div></div>
+        </div>
+      </div>
+
+      <div class="contact-cta">
+        <h3>Ready when you are</h3>
+        <p>One number for calls and WhatsApp — no separate lines to remember.</p>
+        <a class="btn btn-primary" href="tel:+916232957739">Call 6232957739</a>
+        <a class="btn btn-whatsapp" href="https://wa.me/916232957739?text=Hi%2C%20I%20need%20a%20bird%20net%20quote" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.5 0-10 4.5-10 10 0 1.77.46 3.44 1.27 4.9L2 22l5.25-1.38a9.98 9.98 0 0 0 4.79 1.22h.01c5.5 0 10-4.5 10-10s-4.5-10-10.01-10zm0 18.17h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.11.82.83-3.03-.2-.31a8.17 8.17 0 0 1-1.26-4.36c0-4.52 3.68-8.2 8.21-8.2 2.19 0 4.25.86 5.8 2.4a8.15 8.15 0 0 1 2.4 5.81c0 4.52-3.68 8.2-8.18 8.2z"/></svg>
+          Message on WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>© <span id="year"></span> Karan Birdnet Service, Gota, Ahmedabad — All rights reserved.</div>
+  </div>
+  <div class="wrap" style="margin-top:10px;">
+    <div class="keywords">Bird net Ahmedabad · Pigeon net Ahmedabad · Bird net Gota · Pigeon net Gota · Balcony safety net Ahmedabad · Window safety net Gota · Invisible bird net Gujarat · Children safety net Ahmedabad · Terrace bird net Ahmedabad · Anti pigeon net installation Gota</div>
+  </div>
+</footer>
+
+<a class="float-wa" href="https://wa.me/916232957739?text=Hi%2C%20I%20need%20a%20bird%20net%20quote" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.5 0-10 4.5-10 10 0 1.77.46 3.44 1.27 4.9L2 22l5.25-1.38a9.98 9.98 0 0 0 4.79 1.22h.01c5.5 0 10-4.5 10-10s-4.5-10-10.01-10zm0 18.17h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.11.82.83-3.03-.2-.31a8.17 8.17 0 0 1-1.26-4.36c0-4.52 3.68-8.2 8.21-8.2 2.19 0 4.25.86 5.8 2.4a8.15 8.15 0 0 1 2.4 5.81c0 4.52-3.68 8.2-8.18 8.2z"/></svg>
+</a>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
